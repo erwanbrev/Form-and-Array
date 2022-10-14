@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* code's package */
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit],
+button {
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* code normal */
+body {
+    background: #67BE4B;
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+/* Bordered form */
+form,
+table {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0,
+            0.24);
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    border-radius: 2em;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+}
+
+#container h1 {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+button {
+    width: 80%;
+    background-color: #4A4A4A;
+    border: none;
+    padding: 1em;
+    color: #FAFAFA;
+    margin: 5% 10% 2%;
+}
+
+table {
+    margin: 6% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: yellow;
+}
+
+td {
+    border: 1px solid black;
+}
